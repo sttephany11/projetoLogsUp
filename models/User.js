@@ -1,6 +1,5 @@
-// src/models/User.js
 import { DataTypes } from "sequelize";
-import sequelize from "../config/db.js";  
+import sequelize from "../config/db.js";
 
 const User = sequelize.define("User", {
   id: {
@@ -9,23 +8,26 @@ const User = sequelize.define("User", {
     autoIncrement: true,
   },
   nomeUser: {
-    type: DataTypes.STRING(120),
+    type: DataTypes.STRING,
     allowNull: false,
   },
   emailUser: {
-    type: DataTypes.STRING(150),
+    type: DataTypes.STRING,
     allowNull: false,
     unique: true,
   },
   senhaUser: {
-    type: DataTypes.STRING(255),
+    type: DataTypes.STRING,
     allowNull: false,
   },
   privilegioUser: {
-    type: DataTypes.ENUM("supervisor", "admin", "operador"),
-    allowNull: false,
+    type: DataTypes.STRING,
+    defaultValue: "pendente", // Status de função pendente
+  },
+  status: {
+    type: DataTypes.ENUM("ativo", "pendente"),
+    defaultValue: "pendente",
   },
 });
-
 
 export default User;
