@@ -186,7 +186,8 @@ Tela de produtos:
 Modal para cadastro de produtos:
 <img width="1916" height="907" alt="Modal de cadastrar produto" src="https://github.com/user-attachments/assets/f0adf6c7-2285-4b29-b0d1-c0d59dc521ef" />
 
-Modall para alterar de produtos:
+Modal para alteção nos produtos:
+
 <img width="667" height="587" alt="Modal de editar produto" src="https://github.com/user-attachments/assets/68577df0-9bb3-4974-90f3-63ad8e048987" />
 
 
