@@ -173,3 +173,22 @@ Exemplo de corpo:
 2. Verificar produtos:
 
 Faça uma requisição GET para /api/produtos com o token no cabeçalho Authorization.
+
+Tela de login:
+<img width="1916" height="903" alt="teladelogin" src="https://github.com/user-attachments/assets/c4f5b8d3-9132-48fe-95c5-47f3cc01ee36" />
+
+Tela de cadastro: 
+<img width="1918" height="903" alt="tela de cadastro" src="https://github.com/user-attachments/assets/affc8aa9-197e-4df4-85b5-c839b4e530d3" />
+
+Tela de produtos: 
+<img width="1912" height="906" alt="Tela de produtos" src="https://github.com/user-attachments/assets/44d2dcdd-ee13-4b5a-a1da-661347215211" />
+
+Modal para cadastro de produtos:
+<img width="1916" height="907" alt="Modal de cadastrar produto" src="https://github.com/user-attachments/assets/f0adf6c7-2285-4b29-b0d1-c0d59dc521ef" />
+
+Modall para alterar de produtos:
+<img width="667" height="587" alt="Modal de editar produto" src="https://github.com/user-attachments/assets/68577df0-9bb3-4974-90f3-63ad8e048987" />
+
+
+
+
